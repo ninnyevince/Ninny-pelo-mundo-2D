@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ninny: O Pinguim Aventureiro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Ninny: O Pinguim Aventureiro</h1>
+    <p class="subtitle">Ajude Ninny a desviar dos obstáculos, deslizar e coletar doces!</p>
+    
+    <div class="canvas-wrapper">
+      <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+      <div id="overlay" class="overlay">
+        <h2 id="overlay-title">Ninny's Adventure</h2>
+        <p id="overlay-msg">Pressione <strong>Espaço</strong> ou clique para começar!</p>
+        <button id="start-btn">JOGAR</button>
+      </div>
+    </div>
+
+    <div class="controls-info">
+      <p><strong>Controles:</strong> Espaço / Seta para Cima para Pular | Seta para Baixo (ou S) para Deslizar</p>
+      <p class="playlist-link">🎵 <a href="https://www.youtube.com/playlist?list=PL01MrzCNsuJbJTR3IsOZun06oHZ_WQuIL" target="_blank">Ouvir a Playlist Oficial no YouTube</a></p>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
